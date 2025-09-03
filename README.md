@@ -1,0 +1,18 @@
+# Portal 3º Ano A
+
+Este é o repositório do **Portal 3º Ano A** desenvolvido em HTML, CSS e JS.
+
+## Como acessar o site
+
+O site está hospedado no **GitHub Pages**.  
+Após ativar nas configurações do repositório, acesse pelo link:
+
+```
+https://SEU_USUARIO.github.io/portal-3ano-a/
+```
+
+(Substitua `SEU_USUARIO` pelo seu nome de usuário do GitHub)
+
+## Estrutura
+
+- `index.html` → Arquivo principal do portal
