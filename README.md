@@ -8,10 +8,8 @@ O site está hospedado no **GitHub Pages**.
 Após ativar nas configurações do repositório, acesse pelo link:
 
 ```
-https://SEU_USUARIO.github.io/portal-3ano-a/
+https://kaicki.github.io/Teste-2.0/
 ```
-
-(Substitua `SEU_USUARIO` pelo seu nome de usuário do GitHub)
 
 ## Estrutura
 
