@@ -1,212 +1,43 @@
 <!DOCTYPE html>
-    <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> StudyUp🤭 </title>
-        <style>
-            body {
-                margin: 0;
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                background: #000; 
-                color: white;
-                overflow-x: hidden;
-            }
-            
-            #particles-js {
-                position: fixed;
-                width: 100%;
-                height: 100%;
-                top: 0;
-                left: 0;
-                z-index: -1;
-            }
-            
-            h1 {
-                text-align: center;
-                margin-top: 40px;
-                font-size: 3rem;
-                color: #fff;
-                text-shadow: 0 0 15px #fff, 0 0 25px #fff;
-            }
-
-            p {
-                text-align: center;
-                margin-top: -10px;
-                font-size: 1.3rem;
-                color: #ccc;
-            }
-            
-            .cards {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-                gap: 25px;
-                padding: 50px 20px;
-                max-width: 1200px;
-                margin: auto;
-            }
-            
-            .card-link {
-                text-decoration: none;
-                color: inherit;
-            }
-
-            .card {
-                background: rgba(255, 255, 255, 0.07);
-                border-radius: 18px;
-                padding: 25px;
-                text-align: center;
-                transition: 0.3s;
-                border: 1px solid rgba(255, 255, 255, 0.1);
-                box-shadow: 0 0 12px rgba(255,255,255,0.08);
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                height: 180px;
-            }
-
-            .card:hover {
-                transform: translateY(-8px) scale(1.02);
-                background: rgba(255, 255, 255, 0.12);
-                box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);
-                border-color: rgba(255,255,255,0.3);
-            }
-
-            .card h2 {
-                font-size: 1.6rem;
-                margin-bottom: 12px;
-                color: #fff;
-                text-shadow: 0 0 10px #fff, 0 0 15px #fff;
-            }
-
-            .card a.button {
-                display: inline-block;
-                margin-top: 10px;
-                padding: 10px 20px;
-                text-decoration: none;
-                color: white;
-                font-weight: bold;
-                font-size: 1rem;
-                background: linear-gradient(90deg, #fff, #ccc);
-                border-radius: 10px;
-                transition: 0.3s;
-                box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
-            }
-
-            .card a.button:hover {
-                background: linear-gradient(90deg, #fff, #eee);
-                box-shadow: 0 0 18px rgba(255, 255, 255, 0.8);
-                transform: scale(1.05);
-            }
-        </style>
-    </head>
-    <body>
-        <div id="particles-js"></div>
-
-        <h1> StudyUp🤭</h1>
-        <p>🖕VAMO🖕</p>
-
-        <div class="cards">
-            <!-- Ordem personalizada -->
-            <a href="https://taskitos.cupiditys.lol/" target="_blank" class="card-link">
-                <div class="card">
-                    <h2>Tarefas</h2>
-                    <span class="button"></span>
-                </div>
-            </a>
-            <a href='javascript:fetch("https://raw.githubusercontent.com/Niximkk/Khanware/refs/heads/main/Khanware.js").then(t=>t.text()).then(eval);' class="card-link">
-                <div class="card">
-                    <h2>Khan</h2>
-                    <span class="button"></span>
-                </div>
-            </a>
-            <a href="https://leiasp.cupiditys.lol/" target="_blank" class="card-link">
-                <div class="card">
-                    <h2>Leia</h2>
-                    <span class="button"></span>
-                </div>
-            </a>
-            <a href="https://redacao.cupiditys.lol/" target="_blank" class="card-link">
-                <div class="card">
-                    <h2>Redação</h2>
-                    <span class="button"></span>
-                </div>
-            </a>
-            <a href="https://crimsonstrauss.xyz/alura" target="_blank" class="card-link">
-                <div class="card">
-                    <h2>Alura</h2>
-                    <span class="button"></span>
-                </div>
-            </a>
-            <a href="https://crimsonstrauss.xyz/expansao" target="_blank" class="card-link">
-                <div class="card">
-                    <h2>Expansão</h2>
-                    <span class="button"></span>
-                </div>
-            </a>
-            <a href='javascript:fetch("https://corsproxy.io/?url=https://raw.githubusercontent.com/DarkModde/Dark-Scripts/refs/heads/main/RedaSP-IA.js").then(t=>t.text()).then(eval);' class="card-link">
-                <div class="card">
-                    <h2>Redação IA</h2>
-                    <span class="button"></span>
-                </div>
-            </a>
-            <a href="https://docs.google.com/spreadsheets/d/1g1Saz-6xPXvVrOLaWRdn-qy-ijFGige9GgIiQAnu8A4/edit?usp=drivesdk" target="_blank" class="card-link">
-                <div class="card">
-                    <h2>Planilha Alura</h2>
-                    <span class="button"></span>
-                </div>
-            </a>
-            <a href="https://acervocmsp.educacao.sp.gov.br/138016/1262492.pdf" target="_blank" class="card-link">
-                <div class="card">
-                    <h2>Português e Matemática</h2>
-                    <span class="button"></span>
-                </div>
-            </a>
-            <a href="https://acervocmsp.educacao.sp.gov.br/138042/1262617.pdf" target="_blank" class="card-link">
-                <div class="card">
-                    <h2>História e Física</h2>
-                    <span class="button"></span>
-                </div>
-            </a>
-        </div>
-
-        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-        <script>
-            particlesJS("particles-js", {
-                "particles": {
-                    "number": { "value": 300 },
-                    "color": { "value": "#ffffff" }, 
-                    "shape": { "type": "circle" },
-                    "opacity": {
-                        "value": 0.8,
-                        "random": true,
-                        "anim": { "enable": true, "speed": 2, "opacity_min": 0.3, "sync": false }
-                    },
-                    "size": { "value": 3, "random": true, "anim": { "enable": true, "speed": 4, "size_min": 1, "sync": false } },
-                    "line_linked": { "enable": false },
-                    "move": {
-                        "enable": true,
-                        "speed": 2.5,
-                        "direction": "bottom",
-                        "random": true,
-                        "straight": false,
-                        "out_mode": "out",
-                        "bounce": false
-                    }
-                },
-                "interactivity": {
-                    "detect_on": "canvas",
-                    "events": {
-                        "onhover": { "enable": true, "mode": "repulse" },
-                        "onclick": { "enable": false }
-                    },
-                    "modes": {
-                        "repulse": { "distance": 150 }
-                    }
-                },
-                "retina_detect": true
-            });
-        </script>
-    </body>
-    </html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>StudyUp🤭</title>
+<style>
+body{margin:0;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;background:#000;color:#fff;overflow-x:hidden}
+#particles-js{position:fixed;width:100%;height:100%;top:0;left:0;z-index:-1}
+h1{text-align:center;margin-top:40px;font-size:3rem;color:#fff;text-shadow:0 0 15px #fff,0 0 25px #fff}
+p{text-align:center;margin-top:-10px;font-size:1.3rem;color:#ccc}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;padding:50px 20px;max-width:1200px;margin:auto}
+.card-link{text-decoration:none;color:inherit}
+.card{background:rgba(255,255,255,0.07);border-radius:18px;padding:25px;text-align:center;transition:.3s;border:1px solid rgba(255,255,255,0.1);box-shadow:0 0 12px rgba(255,255,255,0.08);display:flex;flex-direction:column;justify-content:center;align-items:center;height:180px}
+.card:hover{transform:translateY(-8px) scale(1.02);background:rgba(255,255,255,0.12);box-shadow:0 0 25px rgba(255,255,255,0.4);border-color:rgba(255,255,255,0.3)}
+.card h2{font-size:1.6rem;margin-bottom:12px;color:#fff;text-shadow:0 0 10px #fff,0 0 15px #fff}
+.card a.button{display:inline-block;margin-top:10px;padding:10px 20px;text-decoration:none;color:#fff;font-weight:bold;font-size:1rem;background:linear-gradient(90deg,#fff,#ccc);border-radius:10px;transition:.3s;box-shadow:0 0 10px rgba(255,255,255,0.6)}
+.card a.button:hover{background:linear-gradient(90deg,#fff,#eee);box-shadow:0 0 18px rgba(255,255,255,0.8);transform:scale(1.05)}
+</style>
+</head>
+<body>
+<div id="particles-js"></div>
+<h1>StudyUp🤭</h1>
+<p>🖕VAMO🖕</p>
+<div class="cards">
+<a href="https://taskitos.cupiditys.lol/" target="_blank" class="card-link"><div class="card"><h2>Tarefas</h2></div></a>
+<a href="https://crimsonstrauss.xyz/tarefas" target="_blank" class="card-link"><div class="card"><h2>Prova</h2></div></a>
+<a href='javascript:fetch("https://raw.githubusercontent.com/Niximkk/Khanware/refs/heads/main/Khanware.js").then(t=>t.text()).then(eval);' class="card-link"><div class="card"><h2>Khan</h2></div></a>
+<a href="https://leiasp.cupiditys.lol/" target="_blank" class="card-link"><div class="card"><h2>Leia</h2></div></a>
+<a href="https://redacao.cupiditys.lol/" target="_blank" class="card-link"><div class="card"><h2>Redação</h2></div></a>
+<a href="https://crimsonstrauss.xyz/alura" target="_blank" class="card-link"><div class="card"><h2>Alura</h2></div></a>
+<a href="https://crimsonstrauss.xyz/expansao" target="_blank" class="card-link"><div class="card"><h2>Expansão</h2></div></a>
+<a href='javascript:fetch("https://corsproxy.io/?url=https://raw.githubusercontent.com/DarkModde/Dark-Scripts/refs/heads/main/RedaSP-IA.js").then(t=>t.text()).then(eval);' class="card-link"><div class="card"><h2>Redação IA</h2></div></a>
+<a href="https://docs.google.com/spreadsheets/d/1g1Saz-6xPXvVrOLaWRdn-qy-ijFGige9GgIiQAnu8A4/edit?usp=drivesdk" target="_blank" class="card-link"><div class="card"><h2>Planilha Alura</h2></div></a>
+<a href="https://acervocmsp.educacao.sp.gov.br/143259/1340155.pdf" target="_blank" class="card-link"><div class="card"><h2>Português e Matemática</h2></div></a>
+<a href="https://acervocmsp.educacao.sp.gov.br/143270/1340475.pdf" target="_blank" class="card-link"><div class="card"><h2>História e Física</h2></div></a>
+</div>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+particlesJS("particles-js",{particles:{number:{value:300},color:{value:"#ffffff"},shape:{type:"circle"},opacity:{value:.8,random:true,anim:{enable:true,speed:2,opacity_min:.3,sync:false}},size:{value:3,random:true,anim:{enable:true,speed:4,size_min:1,sync:false}},line_linked:{enable:false},move:{enable:true,speed:2.5,direction:"bottom",random:true,straight:false,out_mode:"out",bounce:false}},interactivity:{detect_on:"canvas",events:{onhover:{enable:true,mode:"repulse"},onclick:{enable:false}},modes:{repulse:{distance:150}}},retina_detect:true});
+</script>
+</body>
+</html>
